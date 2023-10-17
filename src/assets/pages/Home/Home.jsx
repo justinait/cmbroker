@@ -13,7 +13,7 @@ function Home() {
   ];
 
   return (
-    <Carousel>
+    <Carousel id='home'>
       {
         dataBranding.map((e, i) => {
           return(

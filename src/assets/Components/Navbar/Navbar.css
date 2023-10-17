@@ -5,6 +5,9 @@
     height: 58px;
     padding: 0px 7%;
     background: #FAFAFA;
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
 
 .logo {

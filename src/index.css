@@ -1,3 +1,15 @@
+:root {
+    --color-white: #FAFAFA;
+    --color-orange: #E5B233;
+    --dark-grey: #7E7E80;
+    --color-grey: #B9B9BA;
+
+    --font-size-titles: 26px;
+    --font-size-titles-mobile: 20px;
+    --font-size-subtitles: 23px;
+    --font-size-subtitles-mobile: 18px;
+}
+
 h4 {
     font-family: 'Raleway', sans-serif;
     font-weight: unset;
@@ -6,8 +18,21 @@ h4 {
     margin-bottom: unset;
     font-weight: unset;
     line-height: unset;
+    color: #7E7E80;
 }
 
 p {
     font-family: 'Roboto', sans-serif;
+    color: #7E7E80;
+}
+
+h3 {
+    color: #FFF;
+    font-family: 'Raleway';
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    padding-top: 10%;
 }

@@ -1,5 +1,7 @@
 .carouselImageMobile {
     width: 100vw!important;
+    height: 88vh;
+    object-fit: cover;
 }
 
 .carouselText{
@@ -15,8 +17,11 @@
     left: 50%; /* Alinea el lado izquierdo del elemento al 50% del contenedor. */
     transform: translate(-50%, -50%); 
 }
-
+.carouselText1 {
+    color: white;
+}
 .carouselText2{
+    color: white;
     margin: 1% auto;
     font-size: 24px;
     font-weight: 700;
@@ -37,6 +42,11 @@
 .carousel-indicators {
     margin-left: unset;
     margin-right: unset;
-    
     margin-bottom: 0.6rem;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    
+    margin: auto !important;
+    height: 50px !important;
 }

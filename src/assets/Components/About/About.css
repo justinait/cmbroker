@@ -1,0 +1,30 @@
+.about {
+    background-color: #E5B233;
+}
+
+.aboutCardContainer {
+    height: 166.307px;
+    border-radius: 13.859px;
+    background: #FFF;
+    box-shadow: 0px 2.77178px 10.39419px 0px rgba(0, 0, 0, 0.25);
+    padding: 9% 6%;
+    width: 65vw;
+    margin: 9% auto;
+}
+
+.aboutCardText {
+    font-size: 11.087px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 3% 6% 0 14%;
+}
+
+.aboutCardContainer h4 {
+    font-size: 17.324px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+
+}

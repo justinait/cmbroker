@@ -1,0 +1,17 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    height: 58px;
+    padding: 0px 7%;
+    background: #FAFAFA;
+}
+
+.logo {
+    width: 144px;
+}
+
+.burgerMenu {
+    width: 20px;
+    height: 15.5px;
+}

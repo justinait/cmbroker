@@ -1,0 +1,42 @@
+.carouselImageMobile {
+    width: 100vw!important;
+}
+
+.carouselText{
+    color: #FFF;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    width: 80%;
+    margin: 13% auto;
+    top: 6.5%; /* Alinea la parte superior del elemento al 50% del contenedor. */
+    left: 50%; /* Alinea el lado izquierdo del elemento al 50% del contenedor. */
+    transform: translate(-50%, -50%); 
+}
+
+.carouselText2{
+    margin: 1% auto;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 8.037px !important;
+    height: 8.037px !important;
+    border-radius: 50% !important;
+    background-color: #B9B9BA !important;
+    opacity: 1;
+    margin-left: 0px;
+}
+.carousel-indicators .active {
+    background-color: #464646 !important;
+}
+
+.carousel-indicators {
+    margin-left: unset;
+    margin-right: unset;
+    
+    margin-bottom: 0.6rem;
+}

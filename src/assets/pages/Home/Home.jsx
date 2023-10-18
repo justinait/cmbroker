@@ -1,6 +1,5 @@
 import React from 'react'
 import Carousel from 'react-bootstrap/Carousel';
-import heroMobile from '../../images/heromobile.png'
 import photo1 from '../../images/happycoupleHERO.jpg'
 import photo2 from '../../images/workHERO.png'
 import photo3 from '../../images/team.jpg'

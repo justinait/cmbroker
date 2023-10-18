@@ -4,7 +4,7 @@ import './FindUs.css'
 function FindUs() {
   return (
     <div className='findContainer'>
-        <h3>ENCONTRANOS</h3>
+      <h3>ENCONTRANOS</h3>
         
     </div>
   )

@@ -1,7 +1,10 @@
 import React from 'react'
 import './ProductSlider.css'
 import { Swiper, SwiperSlide } from 'swiper/react';
-import photo1 from '../../images/heromobile.png'
+import photo1 from '../../images/office.jpg'
+import photo2 from '../../images/happycouple.jpg'
+import photo3 from '../../images/work.png'
+import photo4 from '../../images/team.jpg'
 
 import 'swiper/css';
 
@@ -10,9 +13,9 @@ function ProductSlider() {
   
   const dataSlider = [
     { title: 'Para tu empresa', image: photo1, text: ['ART', 'Vida Colectivos', 'Cauciones', 'Transporte', 'Flota Automotores', 'Daños y Pérdidas Materiales', 'Responsabilidad Civil']},
-    { title: 'Para vos', image: photo1, text: ['Autos y Motos', 'Embarcaciones', 'Vida', 'Accidentes Personales', 'Salud', 'Hogar', 'Movilidad sustentable' ]},
-    { title: 'Para tu profesión', image: photo1, text: [ 'Accidentes Personales', 'Vida', 'Seguro de Retiro', 'Mala Praxis', 'Cauciones']},
-    { title: 'Para tu negocio', image: photo1, text: ['ART', 'Vida', 'Accidentes Personales', 'Daños Materiales', 'Robo', 'Responsabilidad Civil']},
+    { title: 'Para vos', image: photo2, text: ['Autos y Motos', 'Embarcaciones', 'Vida', 'Accidentes Personales', 'Salud', 'Hogar', 'Movilidad sustentable' ]},
+    { title: 'Para tu profesión', image: photo3, text: [ 'Accidentes Personales', 'Vida', 'Seguro de Retiro', 'Mala Praxis', 'Cauciones']},
+    { title: 'Para tu negocio', image: photo4, text: ['ART', 'Vida', 'Accidentes Personales', 'Daños Materiales', 'Robo', 'Responsabilidad Civil']},
   ];
 
   return (

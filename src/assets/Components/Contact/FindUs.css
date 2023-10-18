@@ -1,4 +1,41 @@
 .findContainer {
     background-color: #fff;
-    height: 80vh;
+    height: 66vh;
+}
+
+.findContainer h3 {
+    color: var(--dark-grey)
+}
+
+.findCardContainer {
+    width: 80vw;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 6% auto;
+}
+.findCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 35vw;
+    margin: 1% auto;
+}
+.findCard img {
+    width: 24.094px;
+    margin: 6% auto 9%;
+}
+.findCardText {
+    color: #7E7E80;
+    text-align: center;
+    font-size: 9.3px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.mapIframe {
+    width: 80vw;
+    height: 127px;
+    border-radius: 18.6px;
+    margin: 0 10% 5% ;
 }

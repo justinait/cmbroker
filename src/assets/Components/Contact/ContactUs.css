@@ -6,7 +6,7 @@
 .contactContainer > h4 {
     color: #FFF;
     text-align: center;
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 500;
     line-height: normal;
     width: 80vw;
@@ -22,6 +22,6 @@
 .contactContainer > .contactText {
     color: #FFF;
     margin: 4% auto;
-    font-size: 10px;
+    font-size: 11px;
     font-weight: 300;
 }

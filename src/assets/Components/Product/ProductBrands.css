@@ -13,20 +13,19 @@
     flex-wrap: wrap;
     margin: 6% auto;
     width: 80vw;
+    align-items: center;
 }
 
 .brandsLogos {
     width: 69.665px;
     width: 25%;
     margin: 0 3%;
-    /* height: 53.004px; */
 }
 .logoFirstLine {
-    /* width: 35%; */
     margin: 0 6%;
 
 }
-.nacion{
+.bigBrand{
     width: 26.5%;
     margin: 0 2.5% 0 2%;
 }

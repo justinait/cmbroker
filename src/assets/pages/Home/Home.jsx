@@ -1,15 +1,19 @@
 import React from 'react'
 import Carousel from 'react-bootstrap/Carousel';
 import heroMobile from '../../images/heromobile.png'
+import photo1 from '../../images/happycoupleHERO.jpg'
+import photo2 from '../../images/workHERO.png'
+import photo3 from '../../images/team.jpg'
+import photo4 from '../../images/office.jpg'
 import './Home.css'
 
 function Home() {
   
   const dataBranding = [
-    { text2: 'Para vos', image: heroMobile},
-    { text2: 'Para tu profesión', image: heroMobile},
-    { text2: 'Para tu negocio', image: heroMobile},
-    { text2: 'Para empresas', image: heroMobile},
+    { text2: 'Para vos', image: photo1},
+    { text2: 'Para tu profesión', image: photo2},
+    { text2: 'Para tu negocio', image: photo3},
+    { text2: 'Para empresas', image: photo4},
   ];
 
   return (

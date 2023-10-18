@@ -39,7 +39,7 @@ function FindUs() {
         loading="lazy"
         className='mapIframe'
         referrerPolicy="no-referrer-when-downgrade"
-    ></iframe>
+    ></iframe>  
     </div>
   )
 }

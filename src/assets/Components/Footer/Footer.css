@@ -1,0 +1,57 @@
+.footer {
+    background-color: #464646;
+    height: 20vh;
+    /* height: 144px; */
+    height: 130px;
+    display: flex;
+    justify-content: space-between;
+    padding: 7%;
+    align-items: center;
+}
+
+.logoFooterContainer {
+    width: 50%;
+}
+.logoFooter {
+    width: 129.975px;
+    height: 27.23px;
+}
+.logoFooterText {
+    color: #FFF;
+    font-size: 5.614px;
+    font-style: italic;
+    font-weight: 500;
+    width: 129.975px;
+    text-align: center;
+    margin: 4% 0;
+}
+
+.logoSSNFooter{
+    width: 89px;
+    height: 12.988px;
+}
+
+.ssntext {
+    color: #FFF;
+    text-align: center;
+    font-size: 4.087px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+}
+
+.qrtext {
+    color: #FFF;
+    text-align: center;
+    margin: 0;
+    font-size: 5px;
+    font-weight: 400;
+}
+
+.rightFooter {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}

@@ -2,3 +2,26 @@
     background-color: var(--color-orange);
     height: 80vh;
 }
+
+.contactContainer > h4 {
+    color: #FFF;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: normal;
+    width: 80vw;
+    margin: auto;
+}
+
+.contactContainer >  .subtitleContact {
+    font-weight: 600;
+    margin: 3% auto;
+    font-weight: 800;
+}
+
+.contactContainer > .contactText {
+    color: #FFF;
+    margin: 4% auto;
+    font-size: 10px;
+    font-weight: 300;
+}

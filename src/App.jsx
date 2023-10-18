@@ -6,6 +6,7 @@ import About from './assets/pages/About/About';
 import Product from './assets/pages/Product/Product';
 import Service from './assets/pages/Service/Service';
 import Contact from './assets/pages/Contact/Contact';
+import Footer from './assets/Components/Footer/Footer';
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
       <Product/>
       <Service/>
       <Contact/>
+      <Footer/>
     </>
   )
 }

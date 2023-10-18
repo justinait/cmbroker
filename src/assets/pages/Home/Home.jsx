@@ -1,6 +1,6 @@
 import React from 'react'
 import Carousel from 'react-bootstrap/Carousel';
-import heroMobile from '../../images/heroMobile.png'
+import heroMobile from '../../images/heromobile.png'
 import './Home.css'
 
 function Home() {

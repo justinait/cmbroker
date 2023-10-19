@@ -1,7 +1,7 @@
 .links {    
     display: flex;
     flex-direction: column;
-    position: absolute;
+    position: fixed;
     z-index: 3;
     bottom: 60px;
     right: 17px;

@@ -6,9 +6,11 @@ import './Links.css'
 function Links() {
   return (
     <div className='links'>
-        <div className='linkIconDiv'>
-            <img src={wsp} alt="Whatsapp" className='linkIcons'/>
-        </div>
+        <a target="_blank" href="https://wa.link/d987ps">
+            <div className='linkIconDiv'>    
+                <img src={wsp} alt="Whatsapp" className='linkIcons'/>
+            </div>
+        </a>
         <div className='linkIconDiv'>
             <img src={mail} alt="Correo" className='linkIcons'/>
         </div>

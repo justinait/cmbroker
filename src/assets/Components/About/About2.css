@@ -21,6 +21,10 @@
     border-color: none !important;
     box-shadow: none !important;
 }
+.accordion-button {
+    
+    padding: 5% 0;
+}
 
 .accordion {
     border-radius: 10.355px;
@@ -39,7 +43,7 @@
 .accordion-item {
     border: none;
     border-bottom: 1px var(--dark-grey) solid;
-    width: 70%;
+    width: 72%;
     margin: auto;
 }
 
@@ -48,5 +52,17 @@
     font-weight: 600 !important;    
 }
 .accordionText {
-    font-size: 12px;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.accordion-body {
+    padding: 0;
+}
+
+.iconPlus {
+    font-size: 25px;
+    margin: -5px 5px -5px 5px;
 }

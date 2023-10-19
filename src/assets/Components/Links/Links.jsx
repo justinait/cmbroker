@@ -11,9 +11,11 @@ function Links() {
                 <img src={wsp} alt="Whatsapp" className='linkIcons'/>
             </div>
         </a>
-        <div className='linkIconDiv'>
-            <img src={mail} alt="Correo" className='linkIcons'/>
-        </div>
+        <a href="mailto:comercial@cmbroker.com.ar">
+            <div className='linkIconDiv'>
+                <img src={mail} alt="Correo" className='linkIcons'/>
+            </div>
+        </a>
     </div>
   )
 }

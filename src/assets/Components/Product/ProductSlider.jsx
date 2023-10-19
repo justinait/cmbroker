@@ -35,7 +35,8 @@ function ProductSlider() {
             spaceBetween: 20,
             initialSlide: 1,
             centeredSlides: true,
-            speed: 300,
+            // speed: 300,
+            loop: true,
           },
           640: {
             slidesPerView: 1.7,

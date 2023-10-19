@@ -13,6 +13,10 @@
     box-shadow:none !important;
 }
 
+.accordion-button.collapsed {
+    /* padding-bottom: 0 !important; */
+    padding: 2%;
+}
 .accordion-button:focus {
     border-color: none !important;
     box-shadow: none !important;
@@ -23,9 +27,10 @@
     background: #FFF;
     box-shadow: 0px 2.07098px 7.76618px 0px rgba(0, 0, 0, 0.25);
     position: relative;
-    bottom: 90px;
-    width: 60%;
-    left: 30%;
+    bottom: 130px;
+    width: 65%;
+    left: 27%;
+    padding: 5% 0 7% 0%;
 }
 .accordion-item:last-of-type {
     border-radius: 0px;
@@ -34,13 +39,13 @@
 .accordion-item {
     border: none;
     border-bottom: 1px var(--dark-grey) solid;
-    width: 80%;
+    width: 70%;
     margin: auto;
 }
 
 .accordionTitle {
-    font-size: 12.944px;
-    font-weight: 600;
+    font-size: 12.944px !important;
+    font-weight: 600 !important;    
 }
 .accordionText {
     font-size: 12px;

@@ -1,6 +1,7 @@
 #service{
     background-color: var(--color-grey);
-    height: 57vh;
+    /* height: 57vh; */
+    padding-bottom: 8%;
 }
 #service h3 {
     color: #464646;

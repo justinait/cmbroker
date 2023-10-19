@@ -1,6 +1,7 @@
 #product {
     background-color: var(--dark-grey);
-    height: 123vh;
+    /* height: 123vh; */
+    padding-bottom: 8%;
 }
 
 .productTitle {

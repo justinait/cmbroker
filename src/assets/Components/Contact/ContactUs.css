@@ -1,6 +1,7 @@
 .contactContainer {
     background-color: var(--color-orange);
-    height: 80vh;
+    /* height: 80vh; */
+    padding-bottom: 8%;
 }
 
 .contactContainer > h4 {

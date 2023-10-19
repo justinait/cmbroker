@@ -1,6 +1,7 @@
 .findContainer {
     background-color: #fff;
-    height: 66vh;
+    /* height: 66vh; */
+    padding-bottom: 8%;
 }
 
 .findContainer h3 {

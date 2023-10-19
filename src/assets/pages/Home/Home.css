@@ -1,5 +1,5 @@
 .carouselImageMobile {
-    width: 100vw!important;
+    width: 100%!important;
     height: 88vh;
     object-fit: cover;
 }

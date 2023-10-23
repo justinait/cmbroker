@@ -9,6 +9,9 @@
     --font-size-subtitles: 23px;
     --font-size-subtitles-mobile: 18px;
 }
+body {
+    overflow-x: hidden;
+}
 
 h4 {
     font-family: 'Raleway', sans-serif;

@@ -14,13 +14,14 @@ function About2() {
                 <Accordion.Header> <h4 className='iconPlus'>+</h4> <h4 className='accordionTitle'>Misión</h4> </Accordion.Header>
                 <Accordion.Body>
                     <p className='accordionText'>
-                        Brindar <strong>tranquilidad y seguridad</strong> <br/>
-                        financiera a nuestros clientes actuales <br/>
-                        y potenciales, guiándolos hacia las <br/>
-                        opciones que <strong> mejor se adapten a sus <br/>
-                        necesidades</strong> en ámbitos de seguros, <br/>
-                        finanzas y salud; y ofreciendo un <br/>
-                        servicio insuperable de <strong> asesoramiento <br/>
+                        Brindar <strong>tranquilidad y seguridad</strong> <br className='mobileBreak'/>
+                        financiera a nuestros clientes actuales <br className='mobileBreak'/>
+                        y <br className='desktopBreak'/>
+                         potenciales, guiándolos hacia las <br className='mobileBreak'/>
+                        opciones que <strong> mejor se adapten a sus <br className='mobileBreak'/>
+                        necesidades</strong> en ámbitos de seguros, <br className='mobileBreak'/>
+                        finanzas y salud; y ofreciendo un <br className='mobileBreak'/>
+                        servicio insuperable de <strong> asesoramiento <br className='mobileBreak'/>
                         y gestión de cobros y reclamos.</strong>
                     </p>
                 </Accordion.Body>
@@ -29,10 +30,10 @@ function About2() {
                 <Accordion.Header> <h4 className='iconPlus'>+</h4><h4 className='accordionTitle'>Visión</h4> </Accordion.Header>
                 <Accordion.Body>
                 <p className='accordionText'>
-                    Aspiramos a ser el <strong> líder regional</strong>, <br/>
-                    tanto para empresas como para  <br/>
-                    personas, a través del compromiso  <br/>
-                    de nuestro equipo en la entrega del  <br/>
+                    Aspiramos a ser el <strong> líder regional</strong>, <br className='mobileBreak'/>
+                    tanto para empresas como para  <br className='mobileBreak'/>
+                    personas, a través del compromiso  <br className='mobileBreak'/>
+                    de nuestro equipo en la entrega del  <br className='mobileBreak'/>
                     <strong>mejor servicio posible.</strong>
                 </p>
                 </Accordion.Body>
@@ -41,12 +42,12 @@ function About2() {
                 <Accordion.Header> <h4 className='iconPlus'>+</h4> <h4 className='accordionTitle'>Valores</h4> </Accordion.Header>
                 <Accordion.Body>
                 <p className='accordionText'>
-                    Los valores en los que se sustenta <br/>
-                    el trabajo que se lleva a cabo día a  <br/>
-                    día dentro de la organización, son  <br/>
-                    los siguientes: <strong> compromiso, <br/>
-                    responsabilidad, profesionalismo,  <br/>
-                    empatía </strong> con clientes y  <br/>
+                    Los valores en los que se sustenta <br className='mobileBreak'/>
+                    el trabajo que se lleva a cabo día a  <br className='mobileBreak'/>
+                    día dentro de la organización, son  <br className='mobileBreak'/>
+                    los siguientes: <strong> compromiso, <br className='mobileBreak'/>
+                    responsabilidad, profesionalismo,  <br className='mobileBreak'/>
+                    empatía </strong> con clientes y  <br className='mobileBreak'/>
                     proveedores y excelencia.
                 </p>
                 </Accordion.Body>

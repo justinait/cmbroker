@@ -53,9 +53,22 @@
 @media (min-width: 767px) {
     .carouselText {
         font-size: 36.48px;
-        font-weight: 400;
     }
     .imagesRight {
         object-position: right;
+    }
+    .carouselText2 {
+        font-size: 38.123px;
+    }
+}
+
+@media (min-width: 1439px) {
+    .carouselText {
+        font-size: 55px;
+        margin: 8% auto;
+        width: 85%;
+    }
+    .carouselText2 {
+        font-size: 45px;
     }
 }

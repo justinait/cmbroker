@@ -22,7 +22,6 @@
     box-shadow: none !important;
 }
 .accordion-button {
-    
     padding: 5% 0;
 }
 
@@ -35,6 +34,7 @@
     width: 65%;
     left: 27%;
     padding: 5% 0 7% 0%;
+    margin-bottom: -15%;
 }
 .accordion-item:last-of-type {
     border-radius: 0px;
@@ -65,4 +65,46 @@
 .iconPlus {
     font-size: 25px;
     margin: -5px 5px -5px 5px;
+}
+.desktopBreak {
+    display: none;
+}
+@media (min-width: 767px) {
+    .about2Image {
+        width: 256.802px;
+        height: 285.795px;
+        margin: 4% 10%;
+    }
+    .accordion {
+        width: 50%;
+        padding: 2% 0;
+        bottom: 280px;
+        left: 40%;
+    }
+    .accordion-item {
+        width: 84%;
+    }
+    .accordionTitle {
+        font-size: 25px !important;    
+    }
+    .accordionText {
+        font-size: 14px;
+    }
+}
+@media (min-width: 1023px) {
+    .accordion {
+        bottom: 340px;
+        margin-bottom: -13%;
+    }
+    .about2Image {
+        margin: 4% 13%;
+        width: 300px;
+        height: 337.25px;
+    }
+    .mobileBreak {
+        display: none;
+    }
+    .desktopBreak{
+        display: block;
+    }
 }

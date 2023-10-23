@@ -1,7 +1,7 @@
 #service{
     background-color: var(--color-grey);
     /* height: 57vh; */
-    padding-bottom: 8%;
+    padding-bottom: 5%;
 }
 #service h3 {
     color: #464646;
@@ -69,5 +69,34 @@
     }
     .serviceCard {
         width: 22vw;
+        border-radius: 13.284px;
+        box-shadow: 0px 2.65683px 9.9631px 0px rgba(0, 0, 0, 0.25);
+    }
+}
+
+@media(min-width: 1439px) {
+    
+    #service > h4 {
+        font-size: 22px;
+        width: unset;
+        margin: 0.5% 0;
+    }
+    .serviceCard img {
+        width: 40px;
+        margin: 6% auto 9%;
+    }
+    .serviceCardText{
+        font-size: 20px;
+    }
+    .serviceCardContainer {
+        width: 44vw;
+        
+        justify-content: space-between;
+    }
+    .serviceCard {
+        width: 17vw;
+        margin: 3% 0;
+        border-radius: 20px;
+        box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.25);
     }
 }

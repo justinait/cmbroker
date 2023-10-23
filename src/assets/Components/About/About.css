@@ -17,14 +17,93 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin: 3% 6% 0 14%;
+    margin: 3% 6% 0 13%;
 }
 
 .aboutCardContainer h4 {
     font-size: 17.324px;
-    font-style: normal;
     font-weight: 600;
     line-height: normal;
-    text-transform: capitalize;
+}
 
+.ticIcon {
+    width: 15px;
+    margin: 0% 3%;
+}
+
+@media (min-width: 767px) {
+    
+    .about1Container{
+        display: flex;
+        justify-content: center;
+    }
+
+    .aboutCardContainer {
+        width: 23vw;    
+        margin: 4% 3%;
+        padding: 3% 0 1% 4.5%;
+        /* height: 124.259px; */
+        height: 11vh;
+    }
+
+    .aboutCardContainer h4 {
+        font-size: 12.944px;
+    }
+    .aboutCardText {
+        font-size: 8.284px;
+        margin: 3% 0;
+    }
+    .ticIcon {
+        display: none;
+    }
+    
+}
+
+@media (min-width:1023px){
+    .aboutCardContainer {
+        width: 21vw;
+        height: 12vh;
+    }
+}
+
+@media (min-width:1439px){
+    .aboutCardText {
+        font-size: 16px;
+        margin: 3% 0 0 12%;
+    }
+    .aboutCardContainer {
+        width: 24vw;
+        height: 26vh;    
+        padding: 3% 2% 3% 3%;
+        margin: 4% 2%;
+    }
+    .ticIcon {
+        display: inline;
+    }
+    .aboutCardContainer h4 {
+        font-size: 25px;
+        font-weight: 600;
+        line-height: normal;
+    }
+}
+
+@media (min-width:1500px){
+    .aboutCardText {
+        font-size: 16px;
+        margin: 3% 0 0 12%;
+    }
+    .aboutCardContainer {
+        width: 24vw;
+        height: 33vh;    
+        padding: 3% 2% 3% 3%;
+        margin: 4% 2%;
+    }
+    .ticIcon {
+        display: inline;
+    }
+    .aboutCardContainer h4 {
+        font-size: 25px;
+        font-weight: 600;
+        line-height: normal;
+    }
 }

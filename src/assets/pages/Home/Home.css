@@ -45,8 +45,17 @@
     margin-bottom: 0.6rem;
 }
 
-.carousel-control-prev, .carousel-control-next {
-    
+.carousel-control-prev, .carousel-control-next {   
     margin: auto !important;
     height: 50px !important;
+}
+
+@media (min-width: 767px) {
+    .carouselText {
+        font-size: 36.48px;
+        font-weight: 400;
+    }
+    .imagesRight {
+        object-position: right;
+    }
 }

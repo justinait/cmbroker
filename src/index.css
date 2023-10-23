@@ -36,3 +36,18 @@ h3 {
     text-align: center;
     padding-top: 10%;
 }
+
+@media (min-width: 767px) {
+    h3 {
+        /* font-size: 31.05px; */
+        font-size: 35px;
+        padding-top: 6%;
+    }
+}
+
+@media (min-width: 767px) {
+    h3 {
+        font-size: 45px;
+        padding-top: 5%;
+    }
+}

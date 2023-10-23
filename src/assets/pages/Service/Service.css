@@ -48,3 +48,26 @@
     font-weight: 600;
     line-height: normal;
 }
+
+@media(min-width: 767px) {
+    
+    #service > h4 {
+        font-size: 15px;
+        font-weight: 600;
+        width: 50vw;
+        margin: 1% auto;
+    }
+    .serviceCard img {
+        width: 30px;
+        margin: 6% auto 9%;
+    }
+    .serviceCardText{
+        font-size: 13px;
+    }
+    .serviceCardContainer {
+        width: 50vw;
+    }
+    .serviceCard {
+        width: 22vw;
+    }
+}

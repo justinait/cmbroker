@@ -38,29 +38,29 @@ function ProductSlider() {
             // speed: 300,
             loop: true,
           },
-          640: {
-            slidesPerView: 1.7,
-            spaceBetween: 5,
-          },
-          767: {
-            slidesPerView: 2,
-            spaceBetween: 5,
-          },
-          1024: {
-            slidesPerView: 2.3,
-            spaceBetween: 5,
-          },
-          1280: {
-            slidesPerView: 2.6,
-            spaceBetween: 10,
-          },
-          1536: {
-            slidesPerView: 3,
-            spaceBetween: 10,
-          },
-          1700: {
-            slidesPerView: 3.3,
-          }
+          // 640: {
+          //   slidesPerView: 1.7,
+          //   spaceBetween: 5,
+          // },
+          // 767: {
+          //   slidesPerView: 2,
+          //   spaceBetween: 5,
+          // },
+          // 1024: {
+          //   slidesPerView: 2.3,
+          //   spaceBetween: 5,
+          // },
+          // 1280: {
+          //   slidesPerView: 2.6,
+          //   spaceBetween: 10,
+          // },
+          // 1536: {
+          //   slidesPerView: 3,
+          //   spaceBetween: 10,
+          // },
+          // 1700: {
+          //   slidesPerView: 3.3,
+          // }
         }}
       >
         {dataSlider.map((e, i)=> {

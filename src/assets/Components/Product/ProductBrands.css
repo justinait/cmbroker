@@ -34,3 +34,29 @@
     width: 23%;
     margin: 0 4%;
 }
+.brandsMobile {
+    display: flex;
+}
+.brandsDesktop {
+    display: none;
+}
+
+@media (min-width: 767px) {
+    .brandsSubtitle{
+        font-size: 15.182px;
+    }
+    .brandsMobile {
+        display: none;
+    }
+    .brandsDesktop {
+        display: flex;
+    }
+
+    .brandsLogos {
+        width: 18%;
+        margin: 0 1%;
+    }
+    .logoFirstLine {
+        margin: 0 2%;
+    }
+}

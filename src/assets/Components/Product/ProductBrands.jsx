@@ -21,7 +21,7 @@ function ProductBrands() {
         <h3>NOS RESPALDAN</h3>
         <h4 className='brandsSubtitle'>Las mejores aseguradoras del mercado</h4>
         
-        <div className='brandsLogosContainer'>
+        <div className='brandsLogosContainer brandsMobile'>
           <img src={logoSancor} alt="" className='brandsLogos logoFirstLine'/>
           <img src={logoSanCristobal} alt="" className='brandsLogos logoFirstLine' />
           <img src={logoIapser} alt="" className='brandsLogos'/>
@@ -36,7 +36,25 @@ function ProductBrands() {
           <img src={logoAfianzadora} alt="" className='brandsLogos' />
           <img src={logoPrevencionART} alt="" className='brandsLogos'/>
           <img src={logoIntegrity} alt="" className='brandsLogos bigBrand' />
+        </div>
 
+        <div className='brandsLogosContainer brandsDesktop'>
+          <img src={logoSancor} alt="" className='brandsLogos logoFirstLine'/>
+          <img src={logoSanCristobal} alt="" className='brandsLogos logoFirstLine' />
+          <img src={logoRivadavia} alt="" className='brandsLogos'/>
+          <img src={logoIapser} alt="" className='brandsLogos'/>
+
+          <img src={logoPacifico} alt="" className='brandsLogos' />
+          <img src={logoProvincia} alt="" className='brandsLogos' />
+          <img src={logoNacion} alt="" className='brandsLogos bigBrand'/>
+          <img src={logoSwissMedical} alt="" className='brandsLogos' />
+          <img src={logoGaleno} alt="" className='brandsLogos ' />
+          
+          <img src={logoFederacionPatronal} alt="" className='brandsLogos'/>
+          <img src={logoPrevencionART} alt="" className='brandsLogos'/>
+          <img src={logoAfianzadora} alt="" className='brandsLogos' />
+          <img src={logoIntegrity} alt="" className='brandsLogos bigBrand' />
+          <img src={logoAsociart} alt="" className='brandsLogos smallBrand'/>
         </div>
 
     </div>

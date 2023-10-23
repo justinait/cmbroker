@@ -57,3 +57,40 @@
     font-weight: 600;
     padding: 7% 0 4% 16%;
 }
+
+@media (min-width: 767px) {
+    .productTitle{
+        width: unset;
+        padding-bottom: 6%;
+    }
+    .sliderTitle {
+        font-size: 14px;
+        padding: 7% 0 4% 7.5%;
+    }
+    .sliderItem {
+        font-size: 12px;
+    }
+
+    .swiper-wrapper {
+        padding-bottom: 3%;
+        height: 200px !important;
+    }
+
+    .swiper-slide {
+        display: flex !important;
+        flex-direction: row;
+        height: 165px !important;
+        transition: height 0.5s !important;
+    }
+
+    .swiper-slide.swiper-slide-active {
+        /* transform: scale(1.2) !important; */
+        height: 200px !important;
+        z-index: 1;
+    }
+
+    .swiper-slide.swiper-slide-next,
+    .swiper-slide.swiper-slide-prev {
+        height: 165px !important;
+    }
+}

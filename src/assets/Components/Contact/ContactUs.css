@@ -1,6 +1,6 @@
 .contactContainer {
     
-    background: url('../../images/lastpage.jpg') center center fixed; 
+    background: url('../../images/lastpage.jpg') center center; 
     background-size: cover;
     /* height: 80vh; */
     /* padding-bottom: 5%; */
@@ -46,5 +46,6 @@
     
     .contactOrangeContainer > .contactText {
         font-size: 18px;
+        margin: 2% auto;
     }
 }

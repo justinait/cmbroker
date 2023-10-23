@@ -46,10 +46,48 @@
     margin-top: 3px;
 }
 
-.rightFooter {
+/* .rightFooter {
     width: 50%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+} */
+
+@media (min-width: 767px ){
+    .footer {
+        height: 150px;
+    }
+    .logoFooter { 
+        width: 215px;
+        height: auto;
+    }
+    .logoFooterText {
+        font-size: 9px;
+        width: 215px;/* siempre acompañando el tamaño del logo */
+        margin: 5% 0;
+    }
+
+    .logoSSNFooter{
+        width: 215px;
+        height: auto;
+    }
+
+    .ssntext {
+        color: #FFF;
+        text-align: center;
+        font-size: 10.087px;
+        font-style: normal;
+        font-weight: 200;
+        line-height: normal;
+    }
+    .qrFooter {
+        width: 60px;
+        height: auto;
+    }
+    .qrtext {
+        font-size: 8px;
+        margin-top: 4px;
+    }
+
 }

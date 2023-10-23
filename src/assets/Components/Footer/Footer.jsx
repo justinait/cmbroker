@@ -18,7 +18,7 @@ function Footer() {
             </div>
             <div>
                     
-                <img src={qr} alt="" width={29} height={29}/>
+                <img className='qrFooter' src={qr} alt="" width={29} height={29}/>
                 <p className='qrtext'>Data Fiscal</p>
             </div>
         {/* </div> */}

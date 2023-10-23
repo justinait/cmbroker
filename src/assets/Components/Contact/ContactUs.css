@@ -1,10 +1,17 @@
 .contactContainer {
-    background-color: var(--color-orange);
+    
+    background: url('../../images/lastpage.jpg') center center fixed; 
+    background-size: cover;
     /* height: 80vh; */
+    /* padding-bottom: 5%; */
+}
+
+.contactOrangeContainer {
+    background: rgba(229, 178, 51, 0.8);
     padding-bottom: 5%;
 }
 
-.contactContainer > h4 {
+.contactOrangeContainer > h4 {
     color: #FFF;
     text-align: center;
     font-size: 13px;
@@ -14,15 +21,30 @@
     margin: auto;
 }
 
-.contactContainer >  .subtitleContact {
+.contactOrangeContainer >  .subtitleContact {
     font-weight: 600;
     margin: 3% auto;
     font-weight: 800;
 }
 
-.contactContainer > .contactText {
+.contactOrangeContainer > .contactText {
     color: #FFF;
     margin: 4% auto;
     font-size: 11px;
     font-weight: 300;
+}
+
+@media (min-width: 767px){
+    .contactOrangeContainer > h4 {
+        font-weight: 600;
+        font-size: 20px;
+    }
+    .contactOrangeContainer >  .subtitleContact {
+        font-weight: 800;
+        margin: 0.5% auto;
+    }
+    
+    .contactOrangeContainer > .contactText {
+        font-size: 18px;
+    }
 }

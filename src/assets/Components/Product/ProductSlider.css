@@ -72,7 +72,7 @@
         line-height: 16px;
     }
     .sliderText {
-        width: 36%;
+        width: 38%;
     }
 
     .swiper-wrapper {
@@ -143,6 +143,5 @@
     }
     .sliderText{
         border-radius: 0 15.532px 15.532px 0;
-        width: 36%;
     }
 }

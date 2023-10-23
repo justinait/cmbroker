@@ -23,11 +23,11 @@ function Navbar() {
 
 
   const secciones = [
-    { nombre: 'INICIO', id: 'home' },
-    { nombre: 'NOSOTROS', id: 'about' },
-    { nombre: 'PRODUCTO', id: 'product' },
-    { nombre: 'SERVICIO', id: 'service' },
-    { nombre: 'CONTACTO', id: 'contact' }
+    { nombre: 'INICIO', id: 'home', className: 'notBorderHome' },
+    { nombre: 'NOSOTROS', id: 'about', className: ''},
+    { nombre: 'PRODUCTO', id: 'product', className: ''},
+    { nombre: 'SERVICIO', id: 'service', className: ''},
+    { nombre: 'CONTACTO', id: 'contact', className: ''}
   ];
   
   const scrollToSection = (id) => {
@@ -39,7 +39,7 @@ function Navbar() {
 
   const navbar = (<div className='dropdown'>
     {secciones.map((seccion) => (
-    <p key={seccion.id} onClick={() => scrollToSection(seccion.id)}>
+    <p className={seccion.className} key={seccion.id} onClick={() => scrollToSection(seccion.id)}  >
       {seccion.nombre}
     </p>
   ))}

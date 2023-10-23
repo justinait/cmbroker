@@ -41,10 +41,10 @@ function ProductBrands() {
         <div className='brandsLogosContainer brandsDesktop'>
           <img src={logoSancor} alt="" className='brandsLogos logoFirstLine'/>
           <img src={logoSanCristobal} alt="" className='brandsLogos logoFirstLine' />
-          <img src={logoRivadavia} alt="" className='brandsLogos'/>
-          <img src={logoIapser} alt="" className='brandsLogos'/>
+          <img src={logoRivadavia} alt="" className='brandsLogos logoFirstLine'/>
+          <img src={logoIapser} alt="" className='brandsLogos logoFirstLine'/>
 
-          <img src={logoPacifico} alt="" className='brandsLogos' />
+          <img src={logoPacifico} alt="" className='brandsLogos bigBrand' />
           <img src={logoProvincia} alt="" className='brandsLogos' />
           <img src={logoNacion} alt="" className='brandsLogos bigBrand'/>
           <img src={logoSwissMedical} alt="" className='brandsLogos' />

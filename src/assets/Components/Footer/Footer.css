@@ -57,6 +57,7 @@
 @media (min-width: 767px ){
     .footer {
         height: 150px;
+        justify-content: space-around;
     }
     .logoFooter { 
         width: 215px;

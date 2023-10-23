@@ -13,18 +13,20 @@ function Home() {
   
   const [width, setWidth] = useState(window.innerWidth);
 
-  const actualizarTamañoPantalla = () => {
+  const updateWindowSize = () => {
     setWidth(window.innerWidth);
   };
 
   useEffect(() => {
-    window.addEventListener('resize', actualizarTamañoPantalla);
+    window.addEventListener('resize', updateWindowSize);
 
     return () => {
-      window.removeEventListener('resize', actualizarTamañoPantalla);
+      window.removeEventListener('resize', updateWindowSize);
     };
   }, []);
+
   let dataBranding = [];
+  
   if (width <= 768) {
     dataBranding = [
       { text2: 'Para vos', image: photo1},

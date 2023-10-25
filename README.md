@@ -4,12 +4,6 @@
 
 <h3>👉🏻 <b>Deploy: <a href="https://cmbroker.vercel.app/">CM Broker</a></b></h3>
 
-<h3>
-  <a href="https://www.canva.com/design/DAFkoByCqps/c3dW5Wi5SGx9Dscce5jhtw/watch?utm_content=DAFkoByCqps&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"> 
-    <img src="https://img.shields.io/badge/Video Preview%20-%231A237E.svg?&style=for-the-badge&logo=Canva&logoColor=white"/>
-  </a>
-</h3>
-
 <hr/>
 
 ### ⚡ Project links:

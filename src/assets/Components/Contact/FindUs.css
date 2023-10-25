@@ -41,7 +41,7 @@
     margin: 0 10% 5% ;
 }
 
-@media (min-width: 767px) {
+@media (min-width: 639px) {
     .findCardContainer {
         flex-wrap: nowrap;
         
@@ -66,7 +66,7 @@
         margin: 0px 25% 5%;
     }
 }
-@media (min-width: 1439px) {
+@media (min-width: 1259px) {
     .findCardContainer {
         flex-wrap: nowrap;
         width: 70vw;

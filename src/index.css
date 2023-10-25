@@ -40,7 +40,7 @@ h3 {
     padding-top: 10%;
 }
 
-@media (min-width: 767px) {
+@media (min-width: 639px) {
     h3 {
         font-size: 31.05px;
         /* font-size: 35px; */
@@ -48,7 +48,7 @@ h3 {
     }
 }
 
-@media (min-width: 1439px) {
+@media (min-width: 1259px) {
     h3 {
         font-size: 45px;
         padding-top: 5%;

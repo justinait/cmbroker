@@ -54,36 +54,34 @@
     align-items: center;
 } */
 
-@media (min-width: 767px ){
+@media (min-width: 639px ){
     .footer {
-        height: 150px;
+        height: 130px;
         justify-content: space-around;
     }
     .logoFooter { 
-        width: 215px;
+        width: 160px;
         height: auto;
     }
     .logoFooterText {
         font-size: 9px;
-        width: 215px;/* siempre acompañando el tamaño del logo */
+        width: 160px;/* siempre acompañando el tamaño del logo */
         margin: 5% 0;
     }
 
     .logoSSNFooter{
-        width: 215px;
+        width: 160px;
         height: auto;
     }
 
-    .ssntext {
-        color: #FFF;
+    .ssntext {    
         text-align: center;
-        font-size: 10.087px;
-        font-style: normal;
-        font-weight: 200;
-        line-height: normal;
+        font-size: 6px;
+        font-weight: 100;
+        padding-top: 3%;
     }
     .qrFooter {
-        width: 60px;
+        width: 45px;
         height: auto;
     }
     .qrtext {
@@ -91,4 +89,28 @@
         margin-top: 4px;
     }
 
+}
+
+@media (min-width: 1023px ){
+    .footer {
+        height: 150px;
+    }
+    .logoFooter { 
+        width: 215px;
+    }
+    .logoFooterText {
+        width: 215px;
+    }
+
+    .logoSSNFooter{
+        width: 215px;
+    }
+
+    .ssntext {
+        font-size: 10.087px;
+    }
+    .qrFooter {
+        width: 60px;
+    }
+    
 }

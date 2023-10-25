@@ -40,7 +40,7 @@
     display: none;
 }
 
-@media (min-width: 767px) {
+@media (min-width: 639px) {
     .brandsSubtitle{
         font-size: 15.182px;
     }
@@ -62,7 +62,13 @@
     }
 }
 
-@media (min-width: 1439px) {
+@media (min-width: 1023px) {
+    .brandsDesktop {
+        width: 80vw;
+    }
+}
+
+@media (min-width: 1259px) {
     
     .bigBrand{
         width: 19.5%;
@@ -80,5 +86,9 @@
     }
     .logoFirstLine {
         margin: 0 4%;
+    }
+    .brandsSubtitle{
+        font-size: 22px;
+        font-weight: 500;
     }
 }

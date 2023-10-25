@@ -4,7 +4,7 @@ import photo1 from '../../images/happycoupleHERO.jpg'
 import photo2 from '../../images/workHERO.png'
 import photo3 from '../../images/team.jpg'
 import photo4 from '../../images/office.jpg'
-import photo5 from '../../images/familycar.jpg'
+import photo5 from '../../images/familycar2.jpg'
 import photo6 from '../../images/work1.png'
 
 import './Home.css'
@@ -27,7 +27,7 @@ function Home() {
 
   let dataBranding = [];
   
-  if (width <= 768) {
+  if (width < 640) {
     dataBranding = [
       { text2: 'Para vos', image: photo1},
       { text2: 'Para tu profesión', image: photo2},

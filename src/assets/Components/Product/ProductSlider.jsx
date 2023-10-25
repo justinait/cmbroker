@@ -38,22 +38,20 @@ function ProductSlider() {
             // speed: 300,
             loop: true,
           },
-          // 640: {
-          //   slidesPerView: 1.7,
-          //   spaceBetween: 5,
-          // },
-          // 767: {
-          //   slidesPerView: 2,
-          //   spaceBetween: 5,
-          // },
-          // 1024: {
-          //   slidesPerView: 2.3,
-          //   spaceBetween: 5,
-          // },
-          // 1280: {
-          //   slidesPerView: 2.6,
-          //   spaceBetween: 10,
-          // },
+          1023: {
+            slidesPerView: 1.6,
+            spaceBetween: 20,
+            initialSlide: 1,
+            centeredSlides: true,
+            loop: true,
+          },
+          1259: {
+            slidesPerView: 2,
+            spaceBetween: 10,
+            initialSlide: 1,
+            centeredSlides: true,
+            loop: true,
+          },
           // 1536: {
           //   slidesPerView: 3,
           //   spaceBetween: 10,

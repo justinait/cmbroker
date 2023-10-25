@@ -1,5 +1,4 @@
 .contactContainer {
-    
     background: url('../../images/lastpage.jpg') center center; 
     background-size: cover;
     /* height: 80vh; */
@@ -14,7 +13,7 @@
 .contactOrangeContainer > h4 {
     color: #FFF;
     text-align: center;
-    font-size: 13px;
+    font-size: 12px;
     font-weight: 500;
     line-height: normal;
     width: 80vw;
@@ -30,14 +29,14 @@
 .contactOrangeContainer > .contactText {
     color: #FFF;
     margin: 4% auto;
-    font-size: 11px;
+    font-size: 10px;
     font-weight: 300;
 }
 
-@media (min-width: 767px){
+@media (min-width: 639px){
     .contactOrangeContainer > h4 {
         font-weight: 600;
-        font-size: 20px;
+        font-size: 10px;
     }
     .contactOrangeContainer >  .subtitleContact {
         font-weight: 800;
@@ -45,7 +44,17 @@
     }
     
     .contactOrangeContainer > .contactText {
-        font-size: 18px;
+        font-size: 9.3px;
         margin: 2% auto;
+    }
+}
+
+@media (min-width: 1259px) {
+    
+    .contactOrangeContainer, .contactOrangeContainer > h4 {
+        font-size: 20px;
+    }
+    .contactOrangeContainer > .contactText {
+        font-size: 18px;
     }
 }

@@ -40,14 +40,15 @@
     line-height: normal;
 }
 
-@media (min-width: 767px){
+@media (min-width: 639px){
     .navbar{
         padding: 0px 5%;
     }
     .dropdown {
         display: flex;
         justify-content: space-between;
-        width: 55%;
+        width: 65%;
+        /* 55 */
         height: unset;
         z-index: unset;
         position: unset;
@@ -63,21 +64,41 @@
         margin: 0;
         
         /* line */
-        width: 16%;
+        /* width: 16%; */
+        width: 17.5%;
         height: 10.931px;
         border-left: rgba(141, 141, 143, 0.50) solid 1px;
+    }
+    .servicioNavbar {
+        width: 15% !important;
     }
     .notBorderHome {
         border:none !important;
     }
 }
 
-@media (min-width: 1439px){
+
+@media (min-width: 1023px){
+    
+    .dropdown p{
+        font-size: 10.565px;
+        width: 15%;
+    }
+    .servicioNavbar {
+        width: 14.5% !important;
+    }
+}
+
+@media (min-width: 1259px){
     .dropdown {
         width: 50%;
     }
     .dropdown p{
         font-size: 14px;
         height: 15px;
+        width: 17%;
+    }
+    .servicioNavbar {
+        width: 15.5% !important;
     }
 }

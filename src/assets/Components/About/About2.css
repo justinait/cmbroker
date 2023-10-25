@@ -69,7 +69,8 @@
 .desktopBreak {
     display: none;
 }
-@media (min-width: 767px) {
+
+@media (min-width: 639px) {
     .about2Image {
         width: 256.802px;
         height: 285.795px;
@@ -106,5 +107,29 @@
     }
     .desktopBreak{
         display: block;
+    }
+}
+
+@media (min-width: 1259px) {
+    .about2Image {
+        width: 400px;
+        height: 445.94px;
+        margin: 4% 10%;
+    }
+    
+    .accordion {
+        bottom: 450px;
+    }
+}
+
+@media (min-width: 1499px) {
+    .about2Image {
+        width: 496px;
+        height: 552px;
+        margin: 4% 10%;
+    }
+    
+    .accordion {
+        bottom: 545px;
     }
 }

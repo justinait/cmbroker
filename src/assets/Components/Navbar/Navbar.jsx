@@ -26,7 +26,7 @@ function Navbar() {
     { nombre: 'INICIO', id: 'home', className: 'notBorderHome' },
     { nombre: 'NOSOTROS', id: 'about', className: ''},
     { nombre: 'PRODUCTO', id: 'product', className: ''},
-    { nombre: 'SERVICIO', id: 'service', className: ''},
+    { nombre: 'SERVICIO', id: 'service', className: 'servicioNavbar'},
     { nombre: 'CONTACTO', id: 'contact', className: ''}
   ];
   
@@ -49,7 +49,7 @@ function Navbar() {
     <div className='navbar'>
       <img src={LogoCM} alt="" className='logo' onClick={()=>scrollToSection('home')} />
       
-      {width < 768 ? (
+      {width < 640 ? (
         <>
           <img src={burgerMenu} alt="Menu" className="burgerMenu" onClick={() => setShow(!show)} />
           {show && navbar}

@@ -31,7 +31,7 @@ function About2() {
                 <Accordion.Body>
                 <p className='accordionText'>
                     Aspiramos a ser el <strong> líder regional</strong>, <br className='mobileBreak'/>
-                    tanto para empresas como para  <br className='mobileBreak'/>
+                    en los segmentos empresas y  <br className='mobileBreak'/>
                     personas, a través del compromiso  <br className='mobileBreak'/>
                     de nuestro equipo en la entrega del  <br className='mobileBreak'/>
                     <strong>mejor servicio posible.</strong>
@@ -42,13 +42,12 @@ function About2() {
                 <Accordion.Header> <h4 className='iconPlus'>+</h4> <h4 className='accordionTitle'>Valores</h4> </Accordion.Header>
                 <Accordion.Body>
                 <p className='accordionText'>
-                    Los valores en los que se sustenta <br className='mobileBreak'/>
-                    el trabajo que se lleva a cabo día a  <br className='mobileBreak'/>
-                    día dentro de la organización, son  <br className='mobileBreak'/>
-                    los siguientes: <strong> compromiso, <br className='mobileBreak'/>
-                    responsabilidad, profesionalismo,  <br className='mobileBreak'/>
-                    empatía </strong> con clientes y  <br className='mobileBreak'/>
-                    proveedores y excelencia.
+                    Nuestro trabajo se sustenta con <br className='mobileBreak'/>
+                    {/* el trabajo que se lleva a cabo día a  <br className='mobileBreak'/>
+                    día dentro de la organización, son  <br className='mobileBreak'/> */}
+                    <strong> compromiso, responsabilidad,  <br className='mobileBreak'/>
+                    profesionalismo, empatía </strong> con  <br className='mobileBreak'/>
+                    clientes y proveedores y excelencia.
                 </p>
                 </Accordion.Body>
             </Accordion.Item>

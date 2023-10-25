@@ -50,7 +50,7 @@
     height: 50px !important;
 }
 
-@media (min-width: 767px) {
+@media (min-width: 639px) {
     .carouselText {
         font-size: 36.48px;
     }
@@ -62,7 +62,7 @@
     }
 }
 
-@media (min-width: 1439px) {
+@media (min-width: 1259px) {
     .carouselText {
         font-size: 55px;
         margin: 8% auto;

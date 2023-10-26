@@ -1,7 +1,7 @@
 #service{
     background-color: var(--color-grey);
-    /* height: 57vh; */
-    padding-bottom: 5%;
+    /* height: 57vh; */ 
+    padding-bottom: 10%;
 }
 #service h3 {
     color: #464646;
@@ -23,6 +23,7 @@
     justify-content: space-between;
     width: 80vw;
     margin: auto;
+    padding-top: 3%;
 }
 .serviceCard {
     background: #FFF;

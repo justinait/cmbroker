@@ -1,5 +1,6 @@
 import React from 'react'
 import './ContactUs.css'
+import { ContactForm } from './ContactForm'
 
 function ContactUs() {
   return (
@@ -10,6 +11,8 @@ function ContactUs() {
         <h4 className='subtitleContact'>Estamos para asegurarte</h4>
         
         <h4 className='contactText'>Completá el siguiente formulario y un ejecutivo <br /> se comunicará contigo a la brevedad</h4>
+      
+        <ContactForm/>
 
       </div>
     </div>

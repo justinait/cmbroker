@@ -42,7 +42,7 @@
 
 .accordion-item {
     border: none;
-    border-bottom: 1px var(--dark-grey) solid;
+    border-bottom: 0.5px var(--dark-grey) solid !important;
     width: 72%;
     margin: auto;
 }
@@ -52,10 +52,10 @@
     font-weight: 600 !important;    
 }
 .accordionText {
-    font-size: 10.25px;
+    font-size: 10.8px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
+    line-height: 14px;
     padding-left: 3%;
 }
 

@@ -97,7 +97,8 @@
     }
     .aboutCardContainer {
         width: 24vw;
-        height: 33vh;    
+        height: 33vh; 
+        /* height: 33%;    */
         padding: 3% 2% 3% 3%;
         margin: 4% 2%;
     }

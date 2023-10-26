@@ -1,0 +1,41 @@
+.inputForm {
+    width: 60%;
+    height: 25px;
+    border-radius: 26px;
+    border: none;
+    margin: 2%;
+    padding: 3% 4%;
+    color: #7E7E80;
+    font-family: 'Roboto';
+    font-size: 9.5px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    box-shadow: 0px 2.06667px 7.75px 0px rgba(0, 0, 0, 0.25);
+}
+
+.messageForm {
+    height: 116px !important;
+    border-radius: 18.083px;
+}
+
+.formSendButton {
+    border-radius: 23.559px;
+    background: #7E7E80;
+    box-shadow: 0px 1.88472px 7.06769px 0px rgba(0, 0, 0, 0.25);
+    width: 74px;
+    height: 35px;
+    margin: auto;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Raleway';
+    font-size: 10.366px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.formContainer {
+    text-align: center;
+}

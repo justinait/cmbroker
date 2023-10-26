@@ -29,7 +29,7 @@ function FindUs() {
         </div>
         <div className='findCard'>
           <img src={clock} alt="Reloj" />
-          <p className='findCardText'>8:00 a 17:00 hs</p>
+          <p className='findCardText'>Lun a Vie 8:00 a 17:00 hs</p>
         </div>
       </div>
 

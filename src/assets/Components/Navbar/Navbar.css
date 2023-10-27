@@ -11,7 +11,7 @@
 }
 
 .logo {
-    width: 144px;
+    width: 160px;
 }
 
 .burgerMenu {
@@ -21,7 +21,7 @@
 
 .dropdown {
     width: 126px;
-    height: 162px;
+    height: 177px;
     z-index: 1;
     position: absolute;
     top: 57px;
@@ -34,10 +34,11 @@
 .dropdown p{
     color: #7E7E80;
     font-family: 'Raleway';
-    font-size: 11.023px;
+    font-size: 12px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+    margin-top: 5%;
 }
 
 @media (min-width: 639px){
@@ -80,6 +81,9 @@
 
 @media (min-width: 1023px){
     
+    .logo{
+        width: 190px;   
+    }
     .dropdown p{
         font-size: 10.565px;
         width: 15%;

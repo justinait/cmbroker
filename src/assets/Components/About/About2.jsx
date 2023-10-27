@@ -30,7 +30,7 @@ function About2() {
                 <Accordion.Header> <h4 className='iconPlus'>+</h4><h4 className='accordionTitle'>Visión</h4> </Accordion.Header>
                 <Accordion.Body>
                 <p className='accordionText'>
-                    Aspiramos a ser el <strong> líder regional</strong>, <br className='mobileBreak'/>
+                    Aspiramos al <strong> liderazgo regional</strong>, <br className='mobileBreak'/>
                     en los segmentos empresas y  <br className='mobileBreak'/>
                     personas, a través del compromiso  <br className='mobileBreak'/>
                     de nuestro equipo en la entrega del  <br className='mobileBreak'/>

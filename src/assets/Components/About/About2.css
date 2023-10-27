@@ -42,20 +42,21 @@
 
 .accordion-item {
     border: none;
-    border-bottom: 1px var(--dark-grey) solid;
-    width: 72%;
+    border-bottom: 0.5px var(--dark-grey) solid !important;
+    width: 77%;
     margin: auto;
 }
 
 .accordionTitle {
-    font-size: 12.944px !important;
+    font-size: 13.7px !important;
     font-weight: 600 !important;    
 }
 .accordionText {
-    font-size: 10px;
+    font-size: 10.6px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
+    line-height: 14px;
+    padding-left: 3%;
 }
 
 .accordion-body {

@@ -63,18 +63,52 @@
         font-size: 9.565px;
         font-weight: 400;
         margin: 0;
-        
-        /* line */
-        /* width: 16%; */
-        width: 17.5%;
         height: 10.931px;
         border-left: rgba(141, 141, 143, 0.50) solid 1px;
-    }
-    .servicioNavbar {
-        width: 15% !important;
+        
+        width: 21%;
+        text-align: center;
     }
     .notBorderHome {
         border:none !important;
+    }
+    .navbar p {
+        display: inline-block;
+        position: relative;
+        text-decoration: none;
+        cursor: pointer;
+    }
+  
+    .navbar p::before {
+        content: "";
+        position: absolute;
+        width: 50%;
+        margin: auto;
+        height: 2px;
+        bottom: -7px;
+        
+        left: 50%;
+        transform: translateX(-50%) !important;
+        transition: transform 0.5s ease;
+
+    }
+    .notBorderHome::before {
+        width: 22% !important;
+    }
+    
+    .navbar p.active::before {
+        background-color: var(--color-orange);
+        transform: scaleX(1);
+        transform-origin: center;
+        border-radius: 20px;
+    }
+    .navbar p:hover::before {
+        background-color: var(--color-orange);
+        transform: scaleX(1);
+        transform-origin: center;
+    }
+    .navbar p::before {
+        transform: scaleX(0);
     }
 }
 
@@ -86,49 +120,14 @@
     }
     .dropdown p{
         font-size: 10.565px;
-        width: 15%;
+        /* width: 15%; */
     }
-    .servicioNavbar {
-        width: 14.5% !important;
-    }
-    .navbar p {
-        display: inline-block;
-        position: relative;
-        text-decoration: none;
-        cursor: pointer; /* Cambia el cursor al hacer hover */
-    }
-  
+    
     .navbar p::before {
-        content: "";
-        position: absolute;
-        width: 45%;
-        /* text-align: center; */
-        margin: auto;
-        height: 2px;
-        bottom: -7px;
-        margin-left: 5%;
-        background-color: transparent; /* Color del subrayado */
-        transform: scaleX(0);
-        transform-origin: right;
-        transition: transform 0.5s ease;
+        width: 35%;
     }
     .notBorderHome::before {
-        width: 22% !important;
-        margin-left: 3% !important;
-    }
-    .navbar p.active::before {
-        background-color: var(--color-orange); /* Color del subrayado cuando la clase está activa */
-        transform: scaleX(1);
-        transform-origin: center;
-        border-radius: 20px;
-    }
-    .navbar p:hover::before {
-        background-color: var(--color-orange); /* Color del subrayado al hacer hover */
-        transform: scaleX(1);
-        transform-origin: center;
-    }
-    .navbar p::before {
-        transform: scaleX(0);
+        width: 20% !important;
     }
 }
 
@@ -142,10 +141,14 @@
         width: 21%;
         text-align: center;
     }
-    .servicioNavbar {
-        width: 15.5% !important;
+    
+    
+    .navbar p::before {
+        width: 35%;
     }
-
+    .notBorderHome::before {
+        width: 20% !important;
+    }
     
 }
 

@@ -74,5 +74,10 @@
         font-size: 13px;
         width: 80px;
         height: 40px;
+        transition: background-color 0.3s ease, color 0.3s ease;
+    }
+    .formSendButton:hover {
+        background-color: #fff;
+        color: #7E7E80;
     }
 }

@@ -8,6 +8,7 @@ function Navbar() {
 
   const [show, setShow] = useState(false);
   const [width, setWidth] = useState(window.innerWidth);
+  const [activeSection, setActiveSection] = useState(null);
 
   const updateWindowSize = () => {
     setWidth(window.innerWidth);
@@ -15,9 +16,10 @@ function Navbar() {
 
   useEffect(() => {
     window.addEventListener('resize', updateWindowSize);
-
+    window.addEventListener('scroll', handleScroll);
     return () => {
       window.removeEventListener('resize', updateWindowSize);
+      window.addEventListener('scroll', handleScroll);
     };
   }, []);
 
@@ -33,13 +35,31 @@ function Navbar() {
   const scrollToSection = (id) => {
     const section = document.getElementById(id);
     if (section) {
-      section.scrollIntoView({ behavior: 'smooth' });
+      const offset = section.offsetTop - 8 * window.innerHeight / 100; // Resta 10vh
+      window.scrollTo({
+        top: offset,
+        behavior: 'smooth',
+      });
+      setActiveSection(id);
     }
+  };
+  
+  const handleScroll = () => {
+    // Detectar la sección visible en la página
+    secciones.forEach((seccion) => {
+      const section = document.getElementById(seccion.id);
+      if (section) {
+        const rect = section.getBoundingClientRect();
+        if (rect.top - 11 * window.innerHeight / 100 <= 0 && rect.bottom >= 0) {
+          setActiveSection(seccion.id);
+        }
+      }
+    });
   };
 
   const navbar = (<div className='dropdown'>
     {secciones.map((seccion) => (
-    <p className={seccion.className} key={seccion.id} onClick={() => scrollToSection(seccion.id)}  >
+    <p className={` ${seccion.className} ${seccion.id === activeSection ? 'active' : ''}`} key={seccion.id} onClick={() => scrollToSection(seccion.id)}  >
       {seccion.nombre}
     </p>
   ))}

@@ -1,6 +1,5 @@
 #product {
     background-color: var(--dark-grey);
-    /* height: 123vh; */
     padding-bottom: 5%;
 }
 
@@ -20,7 +19,7 @@
     display: flex !important;
     flex-direction: row;
     height: 149px !important;
-    transition: height 0.5s !important;
+    transition: height 0.3s !important;
 }
 
 .swiper-slide.swiper-slide-active {
@@ -84,7 +83,6 @@
         display: flex !important;
         flex-direction: row;
         height: 165px !important;
-        transition: height 0.5s !important;
         justify-content: center;
     }
 
@@ -140,7 +138,6 @@
         display: flex !important;
         flex-direction: row;
         height: 210px !important;
-        transition: height 0.5s !important;
     }
 
     .swiper-slide.swiper-slide-active {

@@ -5,6 +5,7 @@ import photo1 from '../../images/office.jpg'
 import photo2 from '../../images/happycouple.jpg'
 import photo3 from '../../images/work.png'
 import photo4 from '../../images/team.jpg'
+import { Autoplay } from 'swiper/modules';
 
 import 'swiper/css';
 
@@ -22,6 +23,10 @@ function ProductSlider() {
     <div>
       <Swiper
         className='swiperBrands'
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: true,
+        }}
         onSlideChange={(swiper) => {
           const slides = swiper.slides;
           for (let i = 0; i < slides.length; i++) {
@@ -35,7 +40,6 @@ function ProductSlider() {
             spaceBetween: 20,
             initialSlide: 1,
             centeredSlides: true,
-            // speed: 300,
             loop: true,
           },
           1023: {
@@ -52,15 +56,10 @@ function ProductSlider() {
             centeredSlides: true,
             loop: true,
           },
-          // 1536: {
-          //   slidesPerView: 3,
-          //   spaceBetween: 10,
-          // },
-          // 1700: {
-          //   slidesPerView: 3.3,
-          // }
         }}
+        modules={[Autoplay]}
       >
+
         {dataSlider.map((e, i)=> {
           return (
             <SwiperSlide className='swiperSlide' key={i}>

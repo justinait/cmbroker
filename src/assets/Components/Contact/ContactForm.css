@@ -3,8 +3,8 @@
     height: 25px;
     border-radius: 26px;
     border: none;
-    margin: 1.5%;
-    padding: 3% 4%;
+    margin: 1%;
+    padding: 4% 4%;
     color: #7E7E80;
     font-family: 'Roboto';
     font-size: 9.5px;
@@ -38,4 +38,41 @@
 
 .formContainer {
     text-align: center;
+}
+
+@media (min-width: 639px) {
+    .inputForm {
+        height: 23.25px;
+        margin: 0.7%;
+        padding: 3% 4%;
+        font-size: 12px;
+        /* 8.267px; */
+    }
+    .messageForm {
+        height: 150px !important;
+        border-radius: 30px;
+    }
+    .formSendButton{
+        font-size: 11px;
+    }
+}
+
+
+@media (min-width: 1259px) {
+    .inputForm {
+        width: 50%;
+        height: 23.25px; 
+        margin: 0.5%;
+        padding: 1.5% 2%;
+        font-size: 14px;
+    }
+    .messageForm {
+        height: 150px !important;
+        border-radius: 30px;
+    }
+    .formSendButton{
+        font-size: 13px;
+        width: 80px;
+        height: 40px;
+    }
 }

@@ -6,6 +6,9 @@
     bottom: 60px;
     right: 17px;
 }
+.linkIconsHover {
+    display: none;
+}
 
 /* .linkIcons { */
 .linkIconDiv img{
@@ -29,9 +32,6 @@
         background-color: var(--color-orange);
     }
 
-    .linkIconsHover {
-        display: none;
-    }
     .linkIconDiv:hover > .linkIconsHover {
         display: inline;
     }

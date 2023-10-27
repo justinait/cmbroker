@@ -27,8 +27,8 @@ function Navbar() {
   const secciones = [
     { nombre: 'INICIO', id: 'home', className: 'notBorderHome' },
     { nombre: 'NOSOTROS', id: 'about', className: ''},
-    { nombre: 'PRODUCTO', id: 'product', className: ''},
-    { nombre: 'SERVICIO', id: 'service', className: 'servicioNavbar'},
+    { nombre: 'PRODUCTOS', id: 'product', className: ''},
+    { nombre: 'SERVICIOS', id: 'service', className: 'servicioNavbar'},
     { nombre: 'CONTACTO', id: 'contact', className: ''}
   ];
   

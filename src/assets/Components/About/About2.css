@@ -134,3 +134,11 @@
         bottom: 545px;
     }
 }
+
+
+/* 360*740 */
+@media(min-width:340px) and (max-width:374px) {
+    .accordion-item {
+        width: 80% !important;
+    }
+}

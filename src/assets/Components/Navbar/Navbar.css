@@ -91,6 +91,48 @@
     .servicioNavbar {
         width: 14.5% !important;
     }
+    .navbar p {
+        display: inline-block;
+        position: relative;
+        text-decoration: none;
+        cursor: pointer; /* Cambia el cursor al hacer hover */
+    }
+  
+    .navbar p::before {
+        content: "";
+        position: absolute;
+        width: 60%;
+        text-align: center;
+        height: 2px; /* Altura del subrayado */
+        bottom: -5px;
+        left: 30%;
+        background-color: transparent; /* Color del subrayado */
+        transform: scaleX(0);
+        transform-origin: right;
+        transition: transform 0.5s ease;
+    }
+    .notBorderHome::before {
+        
+        width: 40% !important;
+        text-align: center;
+        height: 2px;
+        bottom: -5px;
+        left: 59% !important;
+    }
+    .navbar p.active::before {
+        background-color: var(--color-orange); /* Color del subrayado cuando la clase está activa */
+        transform: scaleX(1);
+        transform-origin: center;
+        border-radius: 20px;
+    }
+    .navbar p:hover::before {
+        background-color: var(--color-orange); /* Color del subrayado al hacer hover */
+        transform: scaleX(1);
+        transform-origin: center;
+    }
+    .navbar p::before {
+        transform: scaleX(0);
+    }
 }
 
 @media (min-width: 1259px){
@@ -99,10 +141,15 @@
     }
     .dropdown p{
         font-size: 14px;
-        height: 15px;
+        height: 16px;
         width: 17%;
     }
     .servicioNavbar {
         width: 15.5% !important;
     }
+
+    
 }
+
+
+    

@@ -70,6 +70,9 @@
 .desktopBreak {
     display: none;
 }
+.tabletBreak {
+    display: none;
+}
 
 @media (min-width: 639px) {
     .about2Image {
@@ -90,24 +93,36 @@
         font-size: 20px !important;    
     }
     .accordionText {
-        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
     }
-}
-@media (min-width: 1023px) {
-    .accordion {
-        bottom: 340px;
-        margin-bottom: -13%;
-    }
-    .about2Image {
-        margin: 4% 13%;
-        width: 300px;
-        height: 337.25px;
-    }
+    
     .mobileBreak {
         display: none;
     }
-    .desktopBreak{
+    .tabletBreak {
         display: block;
+    }
+    
+
+
+}
+@media (min-width: 1023px) {
+    
+    .accordionText {
+        font-size: 12.5px;
+    }
+    .accordion {
+        bottom: 340px;
+        margin-bottom: -13%;
+        width: 40%;
+        left: 44%;
+    }
+    .about2Image {
+        margin: 4% 17%;
+        width: 300px;
+        height: 337.25px;
     }
 }
 
@@ -120,6 +135,12 @@
     
     .accordion {
         bottom: 450px;
+    }
+    .tabletBreak {
+        display: none;
+    }
+    .desktopBreak{
+        display: block;
     }
 }
 

@@ -34,11 +34,17 @@
     line-height: normal;
 }
 
-.mapIframe {
+.mapContainer {
     width: 80vw;
     height: 127px;
     border-radius: 18.6px;
     margin: 0 10% 5% ;
+}
+.marker {
+    color: blue;
+}
+.gm-fullscreen-control {
+    display: none;
 }
 
 @media (min-width: 639px) {

@@ -4,7 +4,6 @@ import clock from '../../images/icons/clock.svg'
 import map from '../../images/icons/map.svg'
 import wsp from '../../images/icons/wsp.svg'
 import mail from '../../images/icons/mail.svg'
-import marker from '../../images/icons/marker.png'
 
 import { GoogleMap, useLoadScript, Marker, LoadScript, useJsApiLoader } from '@react-google-maps/api';
 
@@ -56,6 +55,7 @@ function FindUs() {
         </GoogleMap>
       }
           
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC8cRrh5YFeJfMpcn6-XCV2we7GdZ9hPxA&callback=initMap&map_ids=f5959e89199c6139" defer></script>
     </div>
   )
 }

@@ -66,17 +66,26 @@
     /* .findCardText{
         font-size: 9.3px;
     } */
-    .mapIframe {
-        width: 50%;
-        height: 170.1px;
-        margin: 0px 25% 5%;
+    .mapContainer {
+        width: 65%;
+        height: 188px;
+        margin: 0px 18% 5%;
     }
 }
+
+@media (min-width: 1023px){
+
+    .mapContainer {
+        width: 58%;
+        height: 235px;
+        margin: 0px 21% 5%;
+    }
+}
+
 @media (min-width: 1259px) {
     .findCardContainer {
         flex-wrap: nowrap;
         width: 70vw;
-        
         margin: 3% auto;
     }
     .findContainer {
@@ -93,9 +102,16 @@
         font-size: 18px;
         font-weight: 400;
     }
-    .mapIframe {
+    .mapContainer {
         width: 50%;
         height: 250px;
         margin: 0px 25% 5%;
     }
+}
+@media (min-width: 639px){
+    .mapContainer {
+        width: 50%;
+        height: 300px;
+        margin: 0px 25% 5%;
+}
 }

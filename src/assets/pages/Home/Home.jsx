@@ -37,7 +37,7 @@ function Home() {
   } else {
     dataBranding = [
       { text2: 'Para vos', image: photo5, className: 'imagesRight'},
-      { text2: 'Para tu profesión', image: photo6, className: 'imagesRight'},
+      { text2: 'Para tu profesión', image: photo6, className: 'imagesPosition'},
       { text2: 'Para tu negocio', image: photo3},
       { text2: 'Para empresas', image: photo4},
     ];

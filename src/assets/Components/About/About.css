@@ -43,8 +43,8 @@
         margin: 4% 2%;
         padding: 3% 0 1% 4%;
         /* height: 124.259px; */
-        height: 15vh;
-        min-height: 100px;
+        height: 12.5vh;
+        min-height: 120px;
     }
 
     .aboutCardContainer h4 {

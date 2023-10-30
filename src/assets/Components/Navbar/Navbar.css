@@ -64,7 +64,8 @@
     }
 
     .dropdown p{
-        font-size: 9.565px;
+        /* font-size: 9.565px; */
+        font-size: 10px;
         font-weight: 400;
         margin: 0;
         height: 10.931px;

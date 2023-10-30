@@ -42,7 +42,7 @@ function FindUs() {
 
       {isLoaded && 
         <GoogleMap 
-          zoom={14.5}
+          zoom={15}
           center={{ lat: -31.736457, lng: -60.526539 }}
           mapContainerClassName='mapContainer'
           mapId='f5959e89199c6139'
@@ -50,7 +50,7 @@ function FindUs() {
           <Marker 
           position={{ lat: -31.736457, lng: -60.526539 }} 
           icon={{
-            marker
+            url: 'https://i.ibb.co/0svpbyr/marker.png'
           }}
           />
         </GoogleMap>

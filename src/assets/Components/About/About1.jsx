@@ -13,7 +13,7 @@ function About1() {
                 Experiencia
             </h4>
             <p className='aboutCardText'>
-            Fruto de más de treinta años de<br/>
+            Fruto de treinta años de<br/>
             solidez y trayectoria que te <br/>
             permitirán concretar tus <br/>
             objetivos minimizando riesgos y <br/>

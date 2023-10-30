@@ -57,6 +57,9 @@
     .imagesRight {
         object-position: right;
     }
+    .imagesPosition {
+        object-position: -705px 4px;
+    }
     .carouselText2 {
         font-size: 38.123px;
     }
@@ -70,5 +73,9 @@
     }
     .carouselText2 {
         font-size: 45px;
+    }
+    
+    .imagesPosition {
+        object-position: right;
     }
 }

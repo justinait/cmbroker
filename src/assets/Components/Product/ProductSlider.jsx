@@ -13,10 +13,10 @@ import 'swiper/css';
 function ProductSlider() {
   
   const dataSlider = [
-    { title: 'Para tu empresa', image: photo1, text: ['ART', 'Vida Colectivos', 'Cauciones', 'Transporte', 'Flota Automotores', 'Daños y Pérdidas Materiales', 'Responsabilidad Civil']},
-    { title: 'Para vos', image: photo2, text: ['Autos y Motos', 'Embarcaciones', 'Vida', 'Accidentes Personales', 'Salud', 'Hogar', 'Movilidad sustentable' ]},
-    { title: 'Para tu profesión', image: photo3, text: [ 'Accidentes Personales', 'Vida', 'Seguro de Retiro', 'Mala Praxis', 'Cauciones']},
-    { title: 'Para tu negocio', image: photo4, text: ['ART', 'Vida', 'Accidentes Personales', 'Daños Materiales', 'Robo', 'Responsabilidad Civil']},
+    { title: 'Para tu empresa', image: photo1, text: ['ART', 'Vida Colectivos', 'Cauciones', 'Transporte', 'Flota Automotores', 'Daños y Pérdidas Materiales', 'Responsabilidad Civil'], className: ''},
+    { title: 'Para vos', image: photo2, text: ['Autos y Motos', 'Embarcaciones', 'Vida', 'Accidentes Personales', 'Salud', 'Hogar', 'Movilidad sustentable' ], className: 'imageSliderPosition'},
+    { title: 'Para tu profesión', image: photo3, text: [ 'Accidentes Personales', 'Vida', 'Seguro de Retiro', 'Mala Praxis', 'Cauciones'], className: ''},
+    { title: 'Para tu negocio', image: photo4, text: ['ART', 'Vida', 'Accidentes Personales', 'Daños Materiales', 'Robo', 'Responsabilidad Civil'], className: ''},
   ];
 
   return (
@@ -63,7 +63,7 @@ function ProductSlider() {
         {dataSlider.map((e, i)=> {
           return (
             <SwiperSlide className='swiperSlide' key={i}>
-              <img src={e.image} alt="" className='sliderImage'/>
+              <img src={e.image} alt="" className={`sliderImage ${e.className}`}/>
               <div className='sliderText'>
                 <h4 className='sliderTitle'>{e.title}</h4>
               

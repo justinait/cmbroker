@@ -132,9 +132,13 @@
         height: 445.94px;
         margin: 4% 10%;
     }
-    
+    .accordionText {
+        font-size: 14px;
+    }
     .accordion {
         bottom: 450px;
+        left: 39%;
+        width: 50%;
     }
     .tabletBreak {
         display: none;
@@ -149,6 +153,9 @@
         width: 496px;
         height: 552px;
         margin: 4% 10%;
+    }
+    .accordionText {
+        font-size: 15px;
     }
     
     .accordion {

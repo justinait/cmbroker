@@ -18,7 +18,7 @@
     box-shadow: none !important;
 }
 .accordion-button {
-    padding: 5% 0;
+    padding: 2% 0;
 }
 
 .accordion {
@@ -101,6 +101,9 @@
         display: block;
     }
     
+    .accordion-button {
+        padding: 3% 0;
+    }
 
 
 }

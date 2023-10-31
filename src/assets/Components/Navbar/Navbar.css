@@ -133,6 +133,7 @@
     
     .navbar p::before {
         width: 35%;
+        width: 45%;
     }
     .notBorderHome::before {
         width: 20% !important;
@@ -153,6 +154,7 @@
     
     .navbar p::before {
         width: 35%;
+        width: 45%;
     }
     .notBorderHome::before {
         width: 20% !important;

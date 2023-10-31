@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from 'react'
 import Carousel from 'react-bootstrap/Carousel';
-import photo1 from '../../images/happycoupleHERO.jpg'
-import photo2 from '../../images/workHERO.png'
-import photo3 from '../../images/team.jpg'
-import photo4 from '../../images/office.jpg'
-import photo5 from '../../images/familycar2.jpg'
-import photo6 from '../../images/work1.png'
+import photo1 from '../../images/happycoupleHERO-min.jpg'
+import photo2 from '../../images/workHERO-min.png'
+import photo3 from '../../images/team-min.jpg'
+import photo4 from '../../images/office-min.jpg'
+import photo5 from '../../images/familycar2-min.jpg'
+import photo6 from '../../images/work1-min.png'
 
 import './Home.css'
 

@@ -1,5 +1,5 @@
 import React from 'react'
-import aboutPhoto from '../../images/about.png'
+import aboutPhoto from '../../images/about-min.png'
 import Accordion from 'react-bootstrap/Accordion';
 import './About2.css'
 

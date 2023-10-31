@@ -24,18 +24,22 @@ function ProductBrands() {
         <div className='brandsLogosContainer brandsMobile'>
           <img src={logoSancor} alt="" className='brandsLogos logoFirstLine'/>
           <img src={logoSanCristobal} alt="" className='brandsLogos logoFirstLine' />
-          <img src={logoIapser} alt="" className='brandsLogos'/>
-          <img src={logoGaleno} alt="" className='brandsLogos ' />
+
           <img src={logoRivadavia} alt="" className='brandsLogos'/>
-          <img src={logoPacifico} alt="" className='brandsLogos' />
-          <img src={logoNacion} alt="" className='brandsLogos bigBrand'/>
-          <img src={logoProvincia} alt="" className='brandsLogos' />
           <img src={logoFederacionPatronal} alt="" className='brandsLogos'/>
-          <img src={logoSwissMedical} alt="" className='brandsLogos' />
-          <img src={logoAsociart} alt="" className='brandsLogos smallBrand'/>
-          <img src={logoAfianzadora} alt="" className='brandsLogos' />
+          <img src={logoIapser} alt="" className='brandsLogos'/>
+
+          <img src={logoProvincia} alt="" className='brandsLogos' />
           <img src={logoPrevencionART} alt="" className='brandsLogos'/>
+          <img src={logoNacion} alt="" className='brandsLogos bigBrand'/>
+          
+          <img src={logoAsociart} alt="" className='brandsLogos smallBrand'/>
+          <img src={logoGaleno} alt="" className='brandsLogos ' />
+          <img src={logoSwissMedical} alt="" className='brandsLogos' />
+
           <img src={logoIntegrity} alt="" className='brandsLogos bigBrand' />
+          <img src={logoAfianzadora} alt="" className='brandsLogos' />
+          <img src={logoPacifico} alt="" className='brandsLogos' />
         </div>
 
         <div className='brandsLogosContainer brandsDesktop'>
@@ -43,18 +47,18 @@ function ProductBrands() {
           <img src={logoSanCristobal} alt="" className='brandsLogos logoFirstLine' />
           <img src={logoRivadavia} alt="" className='brandsLogos logoFirstLine'/>
           <img src={logoIapser} alt="" className='brandsLogos logoFirstLine'/>
-
-          <img src={logoPacifico} alt="" className='brandsLogos bigBrand' />
-          <img src={logoProvincia} alt="" className='brandsLogos' />
-          <img src={logoNacion} alt="" className='brandsLogos bigBrand'/>
-          <img src={logoSwissMedical} alt="" className='brandsLogos' />
-          <img src={logoGaleno} alt="" className='brandsLogos ' />
           
           <img src={logoFederacionPatronal} alt="" className='brandsLogos'/>
+          <img src={logoProvincia} alt="" className='brandsLogos' />
           <img src={logoPrevencionART} alt="" className='brandsLogos'/>
-          <img src={logoAfianzadora} alt="" className='brandsLogos' />
-          <img src={logoIntegrity} alt="" className='brandsLogos bigBrand' />
+          <img src={logoNacion} alt="" className='brandsLogos bigBrand'/>
           <img src={logoAsociart} alt="" className='brandsLogos smallBrand'/>
+
+          <img src={logoPacifico} alt="" className='brandsLogos bigBrand' />
+          <img src={logoIntegrity} alt="" className='brandsLogos bigBrand' />
+          <img src={logoAfianzadora} alt="" className='brandsLogos' />
+          <img src={logoSwissMedical} alt="" className='brandsLogos' />
+          <img src={logoGaleno} alt="" className='brandsLogos ' />
         </div>
 
     </div>

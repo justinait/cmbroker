@@ -11,11 +11,7 @@
     color:none !important;
     background-color:white !important;
     box-shadow:none !important;
-}
-
-.accordion-button.collapsed {
-    /* padding-bottom: 0 !important; */
-    padding: 2%;
+    padding: 3% 0;
 }
 .accordion-button:focus {
     border-color: none !important;
@@ -146,8 +142,12 @@
     .desktopBreak{
         display: block;
     }
-}
+    .iconPlus {
+        font-size: 33px;
+    }
 
+}
+  
 @media (min-width: 1499px) {
     .about2Image {
         width: 496px;

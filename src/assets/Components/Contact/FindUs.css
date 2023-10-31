@@ -25,6 +25,9 @@
     width: 26px;
     margin: 6% auto 9%;
 }
+.findCard a {
+    margin: 6% auto 9%;
+}
 .findCardText {
     color: #7E7E80;
     text-align: center;
@@ -108,7 +111,7 @@
         margin: 0px 25% 5%;
     }
 }
-@media (min-width: 639px){
+@media (min-width: 1499px){
     .mapContainer {
         width: 50%;
         height: 300px;

@@ -138,7 +138,7 @@ export const ContactForm = () => {
         <Modal.Body>
           <p>¡Gracias por tu mensaje!</p>
           <p className='modalText'>Tu formulario se ha enviado con éxito. <br/>
-            Nos pondremos en contacto contigo en breve.</p>
+            Te contactaremos en breve.</p>
         </Modal.Body>
         
       </Modal>

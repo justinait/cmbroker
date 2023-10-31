@@ -1,10 +1,10 @@
 import React from 'react'
 import './ProductSlider.css'
 import { Swiper, SwiperSlide } from 'swiper/react';
-import photo1 from '../../images/office.jpg'
-import photo2 from '../../images/happycouple.jpg'
-import photo3 from '../../images/work.png'
-import photo4 from '../../images/team.jpg'
+import photo1 from '../../images/office-min.jpg'
+import photo2 from '../../images/happycouple-min.jpg'
+import photo3 from '../../images/work-min.png'
+import photo4 from '../../images/team-min.jpg'
 import { Autoplay } from 'swiper/modules';
 
 import 'swiper/css';

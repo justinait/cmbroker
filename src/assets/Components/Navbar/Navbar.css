@@ -87,37 +87,27 @@
     .navbar p::before {
         content: "";
         position: absolute;
-        width: 50%;
+        /* width: 50%; */
+        width: 0;
         margin: auto;
         height: 2px;
         bottom: -9px;
         
         left: 50%;
         transform: translateX(-50%);
-        transition: transform 0.3s ease;
-        transform: scaleX(0);
-        transform-origin: left;
-    }
-    .notBorderHome::before {
-        width: 22% !important;
+        transition: width 0.3s ease, transform 0.3s ease;
+        background-color: var(--color-orange);
     }
     
     .navbar p.active::before,
     .navbar p:hover::before {
-        background-color: var(--color-orange);
-        transform: scaleX(1) translateX(-50%);
-        transform-origin: left;
-        border-radius: 20px;
+        width: 35%;
+    }
+    .notBorderHome.active::before,
+    .notBorderHome:hover::before {
+        width: 22% !important;
     }
 
-    @keyframes expand {
-        0% {
-            transform: translateX(-50%) scaleX(0);
-        }
-        100% {
-            transform: translateX(-50%) scaleX(1);
-        }
-    }
 }
 
 
@@ -128,14 +118,10 @@
     }
     .dropdown p{
         font-size: 10.565px;
-        /* width: 15%; */
     }
     
-    .navbar p::before {
-        width: 35%;
-        width: 45%;
-    }
-    .notBorderHome::before {
+    .notBorderHome.active::before,
+    .notBorderHome:hover::before {
         width: 20% !important;
     }
 }
@@ -151,12 +137,8 @@
         text-align: center;
     }
     
-    
-    .navbar p::before {
-        width: 35%;
-        width: 45%;
-    }
-    .notBorderHome::before {
+    .notBorderHome.active::before,
+    .notBorderHome:hover::before {
         width: 20% !important;
     }
     

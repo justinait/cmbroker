@@ -45,7 +45,6 @@ function Navbar() {
   };
   
   const handleScroll = () => {
-    // Detectar la sección visible en la página
     secciones.forEach((seccion) => {
       const section = document.getElementById(seccion.id);
       if (section) {
@@ -56,10 +55,14 @@ function Navbar() {
       }
     });
   };
+  const handleClick =(seccion)=> {
+    setShow(false);
+    scrollToSection(seccion)
+  }
 
   const navbar = (<div className='dropdown'>
     {secciones.map((seccion) => (
-    <p className={` ${seccion.className} ${seccion.id === activeSection ? 'active' : ''}`} key={seccion.id} onClick={() => scrollToSection(seccion.id)}  >
+    <p className={` ${seccion.className} ${seccion.id === activeSection ? 'active' : ''}`} key={seccion.id} onClick={() => handleClick(seccion.id)}  >
       {seccion.nombre}
     </p>
   ))}

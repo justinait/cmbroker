@@ -149,6 +149,9 @@
         font-size: 33px;
     }
 
+    .accordion-button {
+        padding: 2% 0;
+    }
 }
   
 @media (min-width: 1499px) {

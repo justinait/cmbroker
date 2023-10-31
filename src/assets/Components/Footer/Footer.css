@@ -114,3 +114,33 @@
     }
     
 }
+
+@media (min-width: 1259px ){
+    .footer {
+        height: 150px;
+    }
+    .logoFooter { 
+        width: 280px;
+    }
+    .logoFooterText {
+        width: 280px;
+        font-size: 10px;
+        font-weight: 300;
+    }
+
+    .logoSSNFooter{
+        width: 280px;
+    }
+
+    .ssntext {
+        font-size: 10.087px;
+    }
+    .qrFooter {
+        width: 80px;
+    }
+    .qrtext {
+        font-size: 9px;
+        font-weight: 300;
+    }
+    
+}

@@ -5,8 +5,8 @@ import ContactUs from '../../Components/Contact/ContactUs'
 function Contact() {
   return (
     <div id='contact'>
-        <FindUs />
-        <ContactUs />
+      <FindUs />
+      <ContactUs />
     </div>
   )
 }

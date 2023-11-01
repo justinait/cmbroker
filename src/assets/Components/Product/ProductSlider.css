@@ -134,7 +134,7 @@
 
     .swiper-wrapper {
         padding-bottom: 3%;
-        height: 270px !important;
+        height: 290px !important;
     }
 
     .swiper-slide {
@@ -145,7 +145,7 @@
 
     .swiper-slide.swiper-slide-active {
         /* transform: scale(1.2) !important; */
-        height: 270px !important;
+        height: 290px !important;
         z-index: 1;
     }
 

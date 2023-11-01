@@ -159,3 +159,19 @@
         height: 150px;
     }
 }
+
+@media (min-width: 1800px){
+    .inputForm{
+        border-radius: 35px;
+        font-size: 16px;
+        margin: 0.4%;
+    }
+    .messageForm {
+        border-radius: 50px;
+    }
+    .formSendButton {
+        font-size: 15px;
+        width: 95px;
+        height: 50px;
+    }
+}

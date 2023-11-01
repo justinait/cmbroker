@@ -163,3 +163,28 @@
         width: 40%;
     }
 }
+
+@media (min-width:1800px) {
+    
+    .imageSliderPosition {
+        object-position: unset;
+    }
+    .swiper-wrapper {
+        height: 300px !important;
+    }
+
+    .swiper-slide.swiper-slide-next,
+    .swiper-slide.swiper-slide-prev {
+        height: 240px !important;
+    }
+    
+    .swiper-slide.swiper-slide-active {
+        height: 300px !important;
+    }
+    .sliderText {
+        padding: 1% 4% 1% 3%;
+    }
+    .sliderTitle {
+        padding: 7% 0 4% 5%;
+    }
+}

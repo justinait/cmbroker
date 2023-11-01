@@ -112,3 +112,18 @@
         line-height: normal;
     }
 }
+@media (min-width:1800px){
+    .aboutCardText {
+        font-size: 20px;
+        margin: 4% 0 0 11%;
+        line-height: 24px;
+    }
+    .aboutCardContainer {
+        width: 23vw;
+        height: 29vh;
+        border-radius: 25px;
+    }
+    .aboutCardContainer h4 {
+        font-size: 28px;
+    }
+}

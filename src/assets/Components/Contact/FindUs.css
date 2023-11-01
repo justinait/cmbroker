@@ -116,5 +116,18 @@
         width: 50%;
         height: 300px;
         margin: 0px 25% 5%;
+    }
 }
+@media (min-width: 1800px){
+    .mapContainer {
+        border-radius: 25px;
+        height: 330px;
+    }
+    .findCardText {
+        font-size: 20px;
+    }
+    .findCard img {
+        width: 50px;
+        height: 45px;   
+    }
 }

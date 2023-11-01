@@ -170,6 +170,24 @@
     }
 }
 
+@media (min-width: 1800px) {
+    .about2Image {
+        margin: 4% 16%;
+    }
+    .accordionText {
+        font-size: 18px;
+    }
+    
+    .accordion {
+        border-radius: 25px;
+        width: 45%;
+    }
+    .accordionTitle {
+        font-size: 21px !important;
+    }
+}
+
+
 
 /* 360*740 */
 @media(min-width:340px) and (max-width:374px) {
